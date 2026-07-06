@@ -3,10 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Inveshub Company - Website Official</title>
+    <title>Inveshub | IT Solutions, Automation, and Digital Platforms</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="Inveshub, IT consulting, automation, UiPath RPA, AI-App Factory, IFX platform, AI-Guider, AI-Auto Counter, machine vision, cloud services" name="keywords">
+    <meta content="Inveshub builds business software products, custom programs, automation, and IT consulting solutions that help companies improve operations and scale faster." name="description">
+    <meta property="og:title" content="Inveshub | IT Solutions, Automation, and Digital Platforms">
+    <meta property="og:description" content="Business software products, custom program development, automation, and IT consulting for real operations.">
+    <meta property="og:image" content="img/inveshub-logo.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
 
     <link rel="icon" type="image/x-icon" href="img/inveshub-logo.png">
 
@@ -18,15 +23,15 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="https://www.inveshub.co/ifx/main_page/ivh/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://www.inveshub.co/ifx/main_page/ivh/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="https://www.inveshub.co/ifx/main_page/ivh/css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Aos Animation -->
-    <link href="https://www.inveshub.co/ifx/main_page/ivh/aos/aos.css" rel="stylesheet">
-    <script src="https://www.inveshub.co/ifx/main_page/ivh/aos/aos.js"></script>
+    <link href="aos/aos.css" rel="stylesheet">
+    <script src="aos/aos.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             AOS.init({
@@ -39,21 +44,22 @@
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid bg-white position-relative">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-            <p class="navbar-brand text-secondary">
-                <h1 class="display-4 text-uppercase">INVESHUB</h1>
-            </p>
+    <div class="container-fluid bg-white position-relative site-nav-wrap">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 main-nav">
+            <a href="#home" class="navbar-brand text-secondary">
+                <img class="brand-mark" src="img/inveshub-logo.png" alt="Inveshub Logo">
+                <h1 class="display-4 text-uppercase mb-0">INVESHUB</h1>
+            </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
-                    <p onclick="ScrollMenu('home')" class="nav-item nav-link active">Home</p>
-                    <p onclick="ScrollMenu('aboutus')" class="nav-item nav-link">About Us</p>
-                    <p onclick="ScrollMenu('services')" class="nav-item nav-link">Services</p>
-                    <p onclick="ScrollMenu('solutions')" class="nav-item nav-link">Solutions</p>
-                    <p onclick="ScrollMenu('contactus')" class="nav-item nav-link">Contact Us</p>
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                    <a href="#aboutus" class="nav-item nav-link">About Us</a>
+                    <a href="#services" class="nav-item nav-link">Services</a>
+                    <a href="#solutions" class="nav-item nav-link">Solutions</a>
+                    <a href="#contactus" class="nav-item nav-link">Contact Us</a>
                 </div>
             </div>
         </nav>
@@ -62,17 +68,45 @@
 
 
     <!-- Header Start -->
-    <div id="home" class="container-fluid bg-primary py-5 px-0" style="margin-bottom: 90px;">
-        <div class="row mx-0 align-items-center" data-aos="fade-down" data-aos-duration="1000">
-            <div class="col-lg-6 px-md-5 text-center text-lg-left">
-                <img class="img-fluid mt-5 mt-lg-0 w-25" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-logo.png" alt="Inveshub Logo">
-                <h1 class="display-2 text-uppercase mb-3">Inveshub</h1>
-                <p class="text-dark mb-4">Empowering your business with cutting-edge IT solutions—our expert team has revolutionized operations for top-tier companies with proven, reliable systems that drive efficiency, growth, and long-term success. Experience the power of innovation tailored to your needs.</p>
-                <p class="btn btn-dark text-uppercase mt-1 py-3 px-5">Join Us</p>
+    <div id="home" class="container-fluid bg-primary py-5 px-0 hero-section">
+        <div class="container">
+        <div class="row mx-0 align-items-center hero-row" data-aos="fade-down" data-aos-duration="1000">
+            <div class="col-lg-6 px-md-5 text-center text-lg-left hero-copy">
+                <span class="hero-kicker">AI, automation, and business platforms</span>
+                <h1 class="display-2 text-uppercase mb-3">Build smarter operations with Inveshub</h1>
+                <p class="text-dark mb-4 hero-lede">We build Inveshub products, custom business programs, automation, and IT consulting solutions that help companies reduce manual work and scale with confidence.</p>
+                <div class="hero-actions">
+                    <a href="#solutions" class="btn btn-dark text-uppercase mt-1 py-3 px-5">Explore Solutions</a>
+                    <a href="#contactus" class="btn btn-outline-dark text-uppercase mt-1 py-3 px-5">Contact Us</a>
+                </div>
+                <div class="hero-proof-grid">
+                    <div>
+                        <span>01</span>
+                        <strong>Products</strong>
+                    </div>
+                    <div>
+                        <span>02</span>
+                        <strong>Custom Software</strong>
+                    </div>
+                    <div>
+                        <span>03</span>
+                        <strong>IT Consulting</strong>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 px-0 text-right">
-                <img class="img-fluid mt-5 mt-lg-0" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-about.png" alt="Inveshub Header">
+            <div class="col-lg-6 px-0 text-right hero-media">
+                <img class="img-fluid mt-5 mt-lg-0 hero-visual" src="img/header.png" alt="Inveshub Header">
+                <div class="hero-signal-panel">
+                    <span>Solutions & Services</span>
+                    <strong>Ready products and custom IT delivery for real business operations</strong>
+                    <ul>
+                        <li><b>Products</b> IFX, AI-Guider, AI-Auto Counter, Automation, and AI-App Factory</li>
+                        <li><b>Custom Software</b> web, mobile, workflow, and business applications</li>
+                        <li><b>IT Consulting</b> process design, system integration, cloud, and automation advisory</li>
+                    </ul>
+                </div>
             </div>
+        </div>
         </div>
     </div>
     <!-- Header End -->
@@ -82,27 +116,45 @@
     <div id="aboutus" class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <h1 class="display-4 text-uppercase text-center mb-5" data-aos="fade-up" data-aos-duration="500">About Us</h1>
-            <div class="row">
-                <div class="col-lg-12 mb-2" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000">
                     <div class="service-item rounded p-5 mb-4">
-                        <img src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-about-us-01.png" alt="Inveshub About Us" class="pb-4"/>
+                        <img src="img/inveshub-about-us-01.png" alt="Inveshub About Us" class="pb-4" loading="lazy"/>
                         <h4 class="text-uppercase mb-4">Our <span class="d-block text-body">Vision</span></h4>
-                        <p class="m-0">To be the essential partner that drives sustainable growth and business success through innovative and efficient IT solutions, empowering small and medium businesses to thrive in a competitive market.</p>
+                        <p class="m-0">We partner with businesses that need practical systems, measurable automation, and technology that can grow with real operations.</p>
                     </div>
                 </div>
-                <div class="col-lg-12 mb-2" data-aos="fade-up" data-aos-duration="1500">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1500">
                     <div class="service-item rounded p-5 mb-4">
-                        <img src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-about-us-02.png" alt="Inveshub About Us" class="pb-4"/>
+                        <img src="img/inveshub-about-us-02.png" alt="Inveshub About Us" class="pb-4" loading="lazy"/>
                         <h4 class="text-uppercase mb-4">Our <span class="d-block text-body">Mission</span></h4>
-                        <p class="m-0">Our mission is to provide tailored IT solutions that enhance the efficiency, competitiveness, and innovation of small and medium businesses. By leveraging advanced technologies such as AI, cloud computing, and machine vision, we aim to simplify complex processes, streamline operations, and support sustainable growth. We are dedicated to fostering long-term partnerships with our clients, ensuring that their business goals are met through reliable, scalable, and future-proof IT solutions.</p>
+                        <p class="m-0">We turn complex processes into reliable digital workflows using AI, cloud, machine vision, automation, and custom software.</p>
                     </div>
                 </div>
-                <div class="col-lg-12 mb-2" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-lg-4 col-md-12 mb-4" data-aos="fade-up" data-aos-duration="2000">
                     <div class="service-item rounded p-5 mb-4">
-                        <img src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-about-us-03.png" alt="Inveshub About Us" class="pb-4"/>
+                        <img src="img/inveshub-about-us-03.png" alt="Inveshub About Us" class="pb-4" loading="lazy"/>
                         <h4 class="text-uppercase mb-4">Our <span class="d-block text-body">Experiences</span></h4>
-                        <p class="m-0">With a team of highly skilled professionals, we bring extensive experience across the IT landscape, including hardware, software, IoT, process design, and network infrastructure. We specialize in designing, building, and maintaining complete systems that are tailored to meet the unique needs of businesses. Our team has worked on software development projects for top-tier corporations in Thailand, gaining deep expertise in integrating systems with commercial platforms. From concept to execution, we provide solutions that are not only innovative but also reliable and scalable for long-term success.</p>
+                        <p class="m-0">Our team covers software, hardware, IoT, process design, network infrastructure, and commercial system integration.</p>
                     </div>
+                </div>
+            </div>
+            <div class="section-proof-row about-proof-row" data-aos="fade-up" data-aos-duration="1000">
+                <div>
+                    <span>Strategy</span>
+                    <strong>Map business processes before building systems</strong>
+                </div>
+                <div>
+                    <span>Delivery</span>
+                    <strong>Ship practical software, automation, and integrations</strong>
+                </div>
+                <div>
+                    <span>Operations</span>
+                    <strong>Connect cloud, data, support, and daily workflows</strong>
+                </div>
+                <div>
+                    <span>Scale</span>
+                    <strong>Improve visibility, control, and repeatable execution</strong>
                 </div>
             </div>
         </div>
@@ -117,62 +169,62 @@
             <div class="owl-carousel team-carousel position-relative" style="padding-left: 30px;">
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-ktb.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-ktb.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-ktbgs.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-ktbgs.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-k-bank.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-k-bank.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-scb.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-scb.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-scg.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-scg.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-toyota.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-toyota.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-nissan-leasing.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-nissan-leasing.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-honda-motor.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-honda-motor.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-viriyah.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-viriyah.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-nava-nakhon.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-nava-nakhon.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-ratchthani-leasing.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-ratchthani-leasing.png" alt="Inveshub Customer">
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-75" src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-customer-mbk.png" alt="Inveshub Customer">
+                        <img class="img-fluid w-75" src="img/inveshub-customer-mbk.png" alt="Inveshub Customer">
                     </div>
                 </div>
             </div>
@@ -184,41 +236,41 @@
     <!-- Services Start -->
     <div id="services" class="container-fluid py-5">
         <div class="container pt-5 pb-3">
-            <h1 class="display-4 text-uppercase text-center mb-5" data-aos="fade-up" data-aos-duration="500">Service in Inveshub</h1>
-            <div data-aos="fade-up" data-aos-duration="1000">
-                <h4 class="mb-4">IT Consulting and implementation services</h4>
-                <p class="mb-3">Our team develops responsive, user-friendly web and mobile applications that are custom-built to meet your business needs. We ensure seamless performance across platforms, delivering solutions that enhance customer engagement and streamline operations.</p>
+            <h1 class="display-4 text-uppercase text-center mb-5" data-aos="fade-up" data-aos-duration="500">Inveshub Services</h1>
+            <div class="section-intro" data-aos="fade-up" data-aos-duration="1000">
+                <h4 class="mb-4">Custom program development and IT consulting</h4>
+                <p class="mb-3">Alongside our own products, we develop custom systems and provide consulting that connects teams, customers, data, and daily workflows.</p>
             </div>
-            <div class="row">
-                <div class="col-lg-12 mb-2" data-aos="fade-up" data-aos-duration="1500">
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1500">
                     <div class="service-item rounded p-5 mb-4">
                         <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
-                        <h4 class="text-uppercase mb-4">Web/Mobile <span class="d-block text-body">application development</span></h4>
-                        <p class="m-0">Our team develops responsive, user-friendly web and mobile applications that are custom-built to meet your business needs. We ensure seamless performance across platforms, delivering solutions that enhance customer engagement and streamline operations.</p>
+                        <h4 class="text-uppercase mb-4">Custom Program <span class="d-block text-body">development</span></h4>
+                        <p class="m-0">Custom web, mobile, and business applications built around real workflows, users, and integrations.</p>
                     </div>
                 </div>
-                <div class="col-lg-12 mb-2" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-xl-3 col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="2000">
                     <div class="service-item rounded p-5 mb-4">
                         <i class="fa fa-3x fa-robot text-primary mb-4"></i>
                         <h4 class="text-uppercase mb-4">Robotic Process Automation (RPA) & Intelligent Process Automation <span class="d-block text-body">(IPA)</span></h4>
-                        <p class="m-0">We automate repetitive and manual business processes using advanced RPA and IPA technologies, enabling your business to operate more efficiently. By integrating AI-driven automation, we help you achieve smarter workflows that reduce costs and minimize errors.</p>
+                        <p class="m-0">RPA and intelligent automation that reduce repetitive work, errors, and response delays.</p>
                     </div>
                 </div>
-                <div class="col-lg-12 mb-2" data-aos="fade-up" data-aos-duration="2500">
+                <div class="col-xl-3 col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="2500">
                     <div class="service-item rounded p-5 mb-4">
                         <i class="fa fa-3x fa-server text-primary mb-4"></i>
                         <h4 class="text-uppercase mb-4">AI technology <span class="d-block text-body">(Chatbot and Machine vision)</span></h4>
                         <ul>
-                            <li><b>AI-Chatbot</b> : Our AI-Chatbot solutions are expertly integrated with your existing systems and knowledge base to meet your specific business needs. Designed to enhance productivity and customer engagement, our chatbots deliver intelligent, seamless support that boosts operational efficiency and elevates customer experiences.</li>
-                            <li><b>Machine Vision</b> : We specialize in developing precision-driven machine vision systems for object detection, tracking, and counting, powered by cutting-edge AI technology. Whether improving manufacturing processes or automating critical tasks, our AI-enhanced machine vision solutions provide unparalleled accuracy, optimizing workflows and ensuring top-tier performance.</li>
+                            <li><b>AI-Chatbot</b> : Knowledge-grounded assistants integrated with real systems.</li>
+                            <li><b>Machine Vision</b> : Detection, tracking, and counting for operational use cases.</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-12 mb-2" data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-xl-3 col-lg-6 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="3000">
                     <div class="service-item rounded p-5 mb-4">
                         <i class="fa fa-3x fa-cloud text-primary mb-4"></i>
                         <h4 class="text-uppercase mb-4">Cloud services</h4>
-                        <p class="m-0">We specialize in managing and maintaining your existing cloud infrastructure. From design to setup and ongoing maintenance, we ensure your cloud services remain continuously available and secure. Our dedicated team monitors and optimizes your cloud environment, ensuring it meets your business’s performance needs and security expectations, so you can focus on growth without worrying about your cloud systems.</p>
+                        <p class="m-0">Cloud setup, maintenance, monitoring, and optimization for stable business operations.</p>
                     </div>
                 </div>
             </div>
@@ -228,44 +280,45 @@
 
 
     <!-- Platform Start -->
-     <h2 class="text-center text-uppercase mb-3">
-        AI-Driven Solutions for Business Growth
+     <h2 class="text-center text-uppercase mb-3 section-kicker">
+        Inveshub Product Suite
     </h2>
     <div id="solutions" class="container-fluid py-5">
         <div class="container pt-5 pb-3">
-            <h1 class="display-4 text-uppercase text-center mb-5" data-aos="fade-up" data-aos-duration="500">Our Solutions for Your Business Growth</h1>
-            <div class="row">
-                <div class="col-lg-3 mb-2">
-                    <div class="bg-dark rounded text-center pt-5 mb-4" data-aos="flip-up" data-aos-duration="1000">
+            <h1 class="display-4 text-uppercase text-center mb-5" data-aos="fade-up" data-aos-duration="500">Our Products for Your Business Growth</h1>
+            <div class="row justify-content-center">
+                <div class="col-xl-20 col-lg-4 col-md-6 mb-3 solution-col">
+                    <div class="bg-dark rounded text-center pt-5 mb-4 solution-card" data-aos="flip-up" data-aos-duration="1000">
                         <h1 class="text-uppercase text-white pb-4">IFX Platform<br />Ice Factory Excellence</h1>
                         <strong class="text-white">All-in-one ice factory system</strong>
-                        <img src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-ifx.png" alt="Inveshub IFX Platform">
+                        <img class="img-fluid" src="img/inveshub-ifx.png" alt="Inveshub IFX Platform" loading="lazy">
                         <div class="text-center text-secondary py-4">
-                            <p class="p-4">The IFX platform is a comprehensive solution designed specifically for ice factories, enabling seamless operations across every department. Covering marketing, sales, production, logistics, and accounting, it integrates ERP, CRM, warehouse management, and logistics systems into a single platform. Tailored to the unique needs of ice factories, IFX optimizes workflows, improves efficiency, and streamlines operations to drive business excellence and growth.</p>
+                            <p class="p-4">The IFX platform centralizes ice factory operations across sales, production, logistics, warehouse, CRM, and accounting. It gives teams one connected workflow to improve visibility, reduce duplicate work, and manage growth with clearer operational control.</p>
                             <a href="https://inveshub.co/ifx/main_page/" class="btn btn-primary text-uppercase py-2 px-4 my-3">Explore IFX</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 mb-2">
-                    <div class="bg-dark rounded text-center pt-5 mb-4" data-aos="flip-up" data-aos-duration="1500">
+                <div class="col-xl-20 col-lg-4 col-md-6 mb-3 solution-col">
+                    <div class="bg-dark rounded text-center pt-5 mb-4 solution-card" data-aos="flip-up" data-aos-duration="1500">
                         <h1 class="text-uppercase text-white pb-4">AI-Guider<br />AI Travel Planning Platform</h1>
                         <strong class="text-white">AI-powered travel planning in minutes</strong>
-                        <img src="https://www.inveshub.co/ifx/main_page/img/main/ai-guider-logo.png" alt="Inveshub AI-Guider">
+                        <img class="img-fluid" src="img/ai-guider-logo.png" alt="Inveshub AI-Guider" loading="lazy">
                         <div class="text-center text-secondary py-4">
                             <p class="p-4">
-                                AI-Guider is our intelligent travel planning platform designed to make trip preparation faster, easier, and more personalized.
-                                Users can create travel plans based on their destination, travel style, budget, and interests, then explore recommended places,
-                                route ideas, and booking options in one seamless experience. By combining AI-powered planning with practical travel information,
-                                AI-Guider helps travelers save time, reduce planning complexity, and enjoy better travel experiences.
+                                AI-Guider creates travel plans from destination, budget, travel style, and interests.
+                                It helps travelers compare route ideas, recommended places, and booking options in one guided experience.
                             </p>
                             <a href="https://ai-guider.com" class="btn btn-primary text-uppercase py-2 px-4 my-3">Try AI-Guider</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 mb-2">
-                    <div class="bg-dark rounded text-center pt-5 mb-4" data-aos="flip-up" data-aos-duration="2000">
-                        <h1 class="text-uppercase text-white pb-4">Auto Counting System<br />AI-Powered</h1>
-                        <strong class="text-white">AI-powered automated counting</strong>
+                <div class="col-xl-20 col-lg-4 col-md-6 mb-3 solution-col">
+                    <div class="bg-dark rounded text-center pt-5 mb-4 solution-card" data-aos="flip-up" data-aos-duration="2000">
+                        <h1 class="text-uppercase text-white pb-4">
+                            AI-Auto Counter<br />
+                            <small style="font-size:14px;">Object detection, tracking, and counting.</small>
+                        </h1>
+                        <strong class="text-white">AI-powered object detection and counting</strong>
                         <!-- Responsive YouTube Embed -->
                         <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
                             <iframe 
@@ -274,18 +327,15 @@
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen
+                                loading="lazy"
                                 style="position: absolute; top:0; left:0; width:100%; height:100%;">
                             </iframe>
                         </div>
 
                         <div class="text-center text-secondary py-4">
                             <p class="p-4">
-                                Transform your factory operations with AI-driven auto counting. Powered by YOLOv8 and a specialized ice sack model, 
-                                this solution leverages your existing CCTV infrastructure to automatically count production output in real time, 
-                                eliminate manual counting errors, and trigger signal tower alerts for better workflow coordination.
-                                <br /><br />
-                                Compatible with both conveyor systems and manual processes, and fully integrated with the IFX platform 
-                                for seamless production, order tracking, and operational efficiency.
+                                AI-powered counting uses existing CCTV and a specialized model to track production output in real time.
+                                It reduces manual counting errors, supports signal-tower alerts, and can integrate with IFX for production and order tracking.
                             </p>
 
                             <a href="https://youtu.be/U0xp6FtPIl4" 
@@ -296,33 +346,48 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 mb-2">
-                    <div class="bg-dark rounded text-center pt-5 mb-4" data-aos="flip-up" data-aos-duration="2500">
+                <div class="col-xl-20 col-lg-4 col-md-6 mb-3 solution-col">
+                    <div class="bg-dark rounded text-center pt-5 mb-4 solution-card" data-aos="flip-up" data-aos-duration="2500">
                         <h1 class="text-uppercase text-white pb-4">
-                            AI Automation<br />
-                            <small style="font-size:14px;">Automate operations. Reduce cost. Scale faster.</small>
+                            Automation<br />
+                            <small style="font-size:14px;">UiPath RPA and workflow automation.</small>
                         </h1>
 
-                        <img src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-ai-automation.png" 
-                            alt="AI Intelligence Automation">
+                        <img class="img-fluid" src="img/inveshub-ai-automation.png"
+                            alt="Inveshub Automation and UiPath RPA" loading="lazy">
 
                         <div class="text-center text-secondary py-4">
                             <p class="p-4">
-                                Transform your business operations with AI-driven intelligent automation.
-                                <br /><br />
-                                Our solution goes beyond traditional chatbots by combining AI, automation, and system integration 
-                                to create end-to-end business workflows.
-                                <br /><br />
-                                The system can interact with customers, explain products, guide purchasing decisions, confirm payments, 
-                                create orders in backend systems, and notify relevant teams automatically.
-                                <br /><br />
-                                Fully customized to fit your business processes, helping reduce manual work, improve response time, 
-                                and increase operational efficiency.
+                                Automation uses UiPath RPA, workflow automation, and system integration to reduce repetitive back-office work.
+                                It can move data, trigger approvals, create records, and notify relevant teams automatically.
                             </p>
 
-                            <a href="mailto:contact-us@inveshub.co" 
+                            <a href="mailto:contactus@inveshub.co"
                             class="btn btn-primary text-uppercase py-2 px-4 my-3">
                             Get Free Consultation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-20 col-lg-4 col-md-6 mb-3 solution-col">
+                    <div class="bg-dark rounded text-center pt-5 mb-4 solution-card" data-aos="flip-up" data-aos-duration="3000">
+                        <h1 class="text-uppercase text-white pb-4">
+                            AI-App Factory<br />
+                            <small style="font-size:14px;">Turn business ideas into production-ready apps.</small>
+                        </h1>
+
+                        <img class="img-fluid w-50 appfactory-logo" src="img/app-factory-icon.png"
+                            alt="Inveshub AI-App Factory" loading="lazy">
+
+                        <div class="text-center text-secondary py-4">
+                            <p class="p-4">
+                                AI-App Factory helps teams turn business ideas into working applications faster with AI-assisted requirements,
+                                app scaffolding, workflow orchestration, and deployment support. It keeps scope, cost, and delivery quality easier to control.
+                            </p>
+
+                            <a href="https://appfactory.inveshub.co/portal/"
+                            class="btn btn-primary text-uppercase py-2 px-4 my-3">
+                            Explore AI-App Factory
                             </a>
                         </div>
                     </div>
@@ -330,7 +395,7 @@
                 <!--<div class="col-lg-6 mb-2">
                     <div class="bg-dark rounded text-center pt-5 mb-4" data-aos="flip-up" data-aos-duration="1500">
                         <h1 class="text-uppercase text-white pb-4">Paperless<br/>with customizable e-Form</h1>
-                        <img src="https://www.inveshub.co/ifx/main_page/img/main/inveshub-e-form.png" alt="Inveshub e-Form">
+                        <img src="img/inveshub-e-form.png" alt="Inveshub e-Form">
                         <div class="text-center text-secondary py-4">
                             <p class="p-4">Our innovative platform eliminates the need for paperwork, transforming your operations into a fully digital process. With customizable e-Forms, you can design and create your own forms and workflows, tailored to fit your business needs. This solution empowers organizations to streamline operations, reduce manual tasks, and embrace digital transformation, driving efficiency and sustainability.</p>
                             <a href="https://www.inveshub.co/eform/main_page/" class="btn btn-primary text-uppercase py-2 px-4 my-3">Want to know more?</a>
@@ -341,12 +406,11 @@
         </div>
     </div>
     <!-- Platform End -->
-     <h3 class="text-center mt-5">
-        Not sure which solution fits your business?
-    </h3>
-    <p class="text-center">
-        Talk to our AI assistant or contact our team for a recommendation.
-    </p>
+    <div class="solution-cta text-center">
+        <h3>Not sure which product or service fits your business?</h3>
+        <p>Talk to our AI assistant or contact our team for a product, custom program, or consulting recommendation.</p>
+        <a href="#contactus" class="btn btn-primary text-uppercase py-2 px-4">Get a Recommendation</a>
+    </div>
     
     <!-- Footer Start -->
     <div id="contactus" class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
@@ -360,23 +424,23 @@
             <div class="col-lg-3 col-md-3 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Quick Links</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <p onclick="ScrollMenu('home')" class="text-white-50 mb-2"><i class="fa fa-angle-right text-white mr-2"></i>Home</p>
-                    <p onclick="ScrollMenu('aboutus')" class="text-white-50 mb-2"><i class="fa fa-angle-right text-white mr-2"></i>About Us</p>
-                    <p onclick="ScrollMenu('services')" class="text-white-50 mb-2"><i class="fa fa-angle-right text-white mr-2"></i>Services</p>
-                    <p onclick="ScrollMenu('solutions')" class="text-white-50 mb-2"><i class="fa fa-angle-right text-white mr-2"></i>Solutions</p>
-                    <p onclick="ScrollMenu('contactus')" class="text-white-50"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</p>
+                    <a href="#home" class="text-white-50 mb-2"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
+                    <a href="#aboutus" class="text-white-50 mb-2"><i class="fa fa-angle-right text-white mr-2"></i>About Us</a>
+                    <a href="#services" class="text-white-50 mb-2"><i class="fa fa-angle-right text-white mr-2"></i>Services</a>
+                    <a href="#solutions" class="text-white-50 mb-2"><i class="fa fa-angle-right text-white mr-2"></i>Solutions</a>
+                    <a href="#contactus" class="text-white-50"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 mb-5">
                 <iframe class="position-relative w-100 h-100"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.2707362437113!2d100.53908977678854!3d13.882753294244829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e283cdaf15ffe3%3A0xf416c3ecba3b2458!2sInveshub!5e0!3m2!1sen!2sth!4v1688482397211!5m2!1sen!2sth"
                         frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+                        tabindex="0" loading="lazy"></iframe>
             </div>
         </div>
     </div>
     <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
-        <p class="mb-2 text-center text-white-50">&copy; <a href="#">Copyright © 2026 Inveshub Company</a>. All Rights Reserved.</p>
+        <p class="mb-2 text-center text-white-50">&copy; <a href="#">2026 Inveshub Company</a>. All Rights Reserved.</p>
         <!-- <p class="m-0 text-center text-white-50">Designed by xLuciferx</p> -->
     </div>
     <!-- Footer End -->
@@ -389,11 +453,11 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="https://www.inveshub.co/ifx/main_page/ivh/lib/easing/easing.min.js"></script>
-    <script src="https://www.inveshub.co/ifx/main_page/ivh/lib/waypoints/waypoints.min.js"></script>
-    <script src="https://www.inveshub.co/ifx/main_page/ivh/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="https://www.inveshub.co/ifx/main_page/ivh/lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="https://www.inveshub.co/ifx/main_page/ivh/lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
     
     <!-- Dify Chatbot -->
     <script>
@@ -418,7 +482,8 @@
 
     .back-to-top {
         bottom: 20px !important;
-        right: 20px !important;
+        right: auto !important;
+        left: 20px !important;
         z-index: 9999 !important;
     }
 
@@ -441,7 +506,7 @@
     }
     </style>
     <!-- Template Javascript -->
-    <script src="https://inveshub.co/ifx/main_page/ivh/js/main.js"></script>
+    <script src="js/main.js"></script>
     
     
 </body>
