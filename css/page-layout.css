@@ -1,0 +1,756 @@
+/* Main-page proportions live separately from the shared template styles. */
+.company-site .section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+  align-items: end;
+  gap: 48px;
+  margin-bottom: 28px;
+}
+
+.company-site .section-eyebrow {
+  margin: 0 0 10px;
+  color: var(--ivh-teal);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.company-site .section-title {
+  margin: 0;
+  color: var(--ivh-text);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.12;
+  text-wrap: balance;
+}
+
+.company-site .section-heading .product-suite-lede,
+.company-site .section-heading .section-intro {
+  max-width: none;
+  margin: 0;
+  text-align: left;
+}
+
+.company-site .section-heading .section-intro h4 {
+  margin: 0 0 10px !important;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.company-site .section-heading .section-intro p {
+  margin: 0;
+}
+
+.company-site .hero-proof-grid div,
+.company-site .section-proof-row div,
+.company-site .hero-signal-panel {
+  border-radius: 8px;
+}
+
+@media (min-width: 1200px) and (min-height: 700px) {
+  html.company-site {
+    --section-edge: 28px;
+    --section-gap: 24px;
+  }
+
+  .company-site .site-nav-wrap {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .company-site .main-nav {
+    max-width: 2160px;
+    min-height: 80px;
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .company-site .navbar-light .navbar-nav .nav-link {
+    padding: 24px 18px;
+    font-size: 16px;
+  }
+
+  .company-site .page-section > .container {
+    width: calc(100% - 64px);
+    max-width: 2160px;
+    padding: 0 !important;
+  }
+
+  .company-site #home,
+  .company-site #solutions,
+  .company-site #services,
+  .company-site #aboutus {
+    padding: var(--section-edge) 0 !important;
+  }
+
+  .company-site #solutions > .container,
+  .company-site #services > .container,
+  .company-site #aboutus > .container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 64px);
+    max-width: 2160px;
+    height: calc(var(--page-height) - 2 * var(--section-edge));
+    gap: var(--section-gap);
+  }
+
+  .company-site .section-heading {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+  }
+
+  .company-site .section-title {
+    font-size: 44px;
+  }
+
+  .company-site .section-eyebrow {
+    font-size: 14px;
+  }
+
+  .company-site .product-suite-lede {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .company-site .section-intro p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .company-site #solutions > .container > .row,
+  .company-site #services > .container > .row,
+  .company-site #aboutus > .container > .row {
+    flex: 1 1 0;
+    min-height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .company-site #solutions .solution-col,
+  .company-site #services .row > [class*="col-"],
+  .company-site #aboutus .row > [class*="col-"] {
+    display: flex;
+    min-height: 0;
+    margin-bottom: 0 !important;
+  }
+
+  .company-site #solutions .solution-card {
+    width: 100%;
+    min-height: 0;
+    margin-bottom: 0 !important;
+    padding: 24px 20px !important;
+    border-radius: 8px !important;
+  }
+
+  .company-site #solutions .product-title {
+    min-height: 30px;
+    font-size: 24px;
+  }
+
+  .company-site .product-label {
+    min-height: 28px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .company-site #solutions .solution-card strong {
+    min-height: 44px;
+    font-size: 15px;
+  }
+
+  .company-site .product-media {
+    flex: 0 0 116px;
+    height: 116px;
+    margin: 14px 0 8px;
+  }
+
+  .company-site #solutions .product-media img,
+  .company-site #solutions .product-media .appfactory-logo {
+    width: auto !important;
+    max-height: 116px !important;
+  }
+
+  .company-site .product-symbol {
+    width: 108px;
+    height: 108px;
+    font-size: 48px;
+  }
+
+  .company-site #solutions .solution-card p {
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .company-site #solutions .solution-card .p-4 {
+    padding: 8px 0 !important;
+  }
+
+  .company-site #solutions .solution-card .btn {
+    padding: 12px 14px !important;
+    font-size: 14px;
+  }
+
+  .company-site .service-item {
+    width: 100%;
+    min-height: 0 !important;
+    padding: 38px !important;
+  }
+
+  .company-site .service-item h4 {
+    margin-bottom: 22px !important;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .company-site .service-item p {
+    max-width: 430px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .company-site .service-item i {
+    width: 78px;
+    height: 78px;
+    margin-bottom: 26px !important;
+  }
+
+  .company-site .service-item img {
+    max-height: 78px;
+    padding-bottom: 20px !important;
+  }
+
+  .company-site .section-action {
+    margin-top: 0 !important;
+  }
+
+  .company-site .section-proof-row {
+    flex: 0 0 auto;
+    gap: 24px;
+    margin-top: 0;
+  }
+
+  .company-site .section-proof-row div {
+    min-height: 122px;
+    padding: 20px 0;
+    border: 0;
+    border-top: 1px solid var(--ivh-line);
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .company-site .section-proof-row span {
+    font-size: 14px;
+  }
+
+  .company-site .section-proof-row strong {
+    font-size: 20px;
+  }
+
+  .company-site .hero-row {
+    min-height: calc(var(--page-height) - 2 * var(--section-edge));
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .company-site .hero-copy {
+    padding-right: 44px !important;
+    padding-left: 0 !important;
+  }
+
+  .company-site .hero-copy h1 {
+    max-width: none;
+    font-size: 88px;
+    line-height: 1.08;
+  }
+
+  .company-site .hero-category {
+    margin-top: 16px;
+    font-size: 48px;
+  }
+
+  .company-site .hero-lede {
+    max-width: 730px;
+    font-size: 23px;
+    line-height: 1.55;
+  }
+
+  .company-site .hero-description {
+    max-width: 710px;
+    font-size: 18px;
+  }
+
+  .company-site .hero-actions .btn {
+    padding: 18px 26px !important;
+    font-size: 16px;
+  }
+
+  .company-site .hero-proof-grid {
+    max-width: none;
+    margin-top: 30px;
+  }
+
+  .company-site .hero-proof-grid div {
+    min-height: 100px;
+    padding: 20px;
+  }
+
+  .company-site .hero-proof-grid span {
+    font-size: 15px;
+  }
+
+  .company-site .hero-proof-grid strong {
+    font-size: 18px;
+  }
+
+  .company-site .hero-media {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-end;
+    min-height: 0;
+  }
+
+  .company-site .hero-visual {
+    width: auto;
+    max-width: 100%;
+    height: calc(var(--page-height) - 2 * var(--section-edge));
+    max-height: none;
+    object-fit: contain;
+    object-position: top right;
+    opacity: 1;
+  }
+
+  .company-site .hero-signal-panel {
+    right: 0;
+    bottom: 0;
+    width: 74%;
+    padding: 24px 28px;
+    background: rgba(17, 23, 24, 0.97);
+  }
+
+  .company-site .hero-signal-panel strong {
+    font-size: 23px;
+  }
+
+  .company-site .hero-signal-panel li {
+    font-size: 15px;
+  }
+
+  .company-site .hero-signal-panel b {
+    font-size: 16px;
+  }
+
+  .company-site #contactus {
+    justify-content: flex-start;
+  }
+
+  .company-site .contact-section .solution-cta {
+    padding: 38px 32px;
+  }
+
+  .company-site .solution-cta h3 {
+    max-width: 1100px;
+    margin: 0 auto 16px;
+    font-size: 42px;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+
+  .company-site .solution-cta p {
+    max-width: 1000px;
+    margin: 0 auto 24px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .company-site #contact-details {
+    display: flex;
+    flex: 1 1 0;
+    min-height: 0;
+    padding: 32px !important;
+  }
+
+  .company-site #contact-details > .row {
+    width: 100%;
+    max-width: 2160px;
+  }
+
+  .company-site #contact-details h4 {
+    font-size: 24px;
+  }
+
+  .company-site #contact-details p,
+  .company-site #contact-details a {
+    font-size: 17px;
+  }
+
+  .company-site #contactus iframe {
+    min-height: 260px;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 950px) {
+  html.company-site {
+    --section-edge: 40px;
+    --section-gap: 32px;
+  }
+
+  .company-site .section-title {
+    font-size: 56px;
+  }
+
+  .company-site .service-item {
+    padding: 44px !important;
+  }
+
+  .company-site .service-item h4 {
+    font-size: 36px;
+  }
+
+  .company-site .service-item p {
+    font-size: 22px;
+  }
+
+  .company-site .hero-copy h1 {
+    font-size: 100px;
+  }
+
+  .company-site .hero-category {
+    font-size: 54px;
+  }
+
+  .company-site .hero-lede {
+    font-size: 25px;
+  }
+
+  .company-site .hero-description {
+    font-size: 20px;
+  }
+
+  .company-site .hero-signal-panel {
+    max-width: 560px;
+    padding: 30px;
+  }
+
+  .company-site .hero-signal-panel strong {
+    font-size: 28px;
+  }
+
+  .company-site .hero-signal-panel li {
+    font-size: 17px;
+  }
+
+  .company-site #solutions .solution-card {
+    padding: 32px 24px !important;
+  }
+
+  .company-site #solutions .product-title {
+    font-size: 28px;
+  }
+
+  .company-site #solutions .solution-card p {
+    font-size: 18px;
+  }
+
+  .company-site .product-media {
+    flex-basis: 160px;
+    height: 160px;
+    margin-top: 24px;
+  }
+
+  .company-site #solutions .product-media img,
+  .company-site #solutions .product-media .appfactory-logo {
+    max-height: 150px !important;
+  }
+
+  .company-site .product-symbol {
+    width: 144px;
+    height: 144px;
+    font-size: 58px;
+  }
+
+  .company-site .section-proof-row div {
+    min-height: 140px;
+    padding-top: 26px;
+  }
+
+  .company-site .section-proof-row strong {
+    font-size: 23px;
+  }
+
+  .company-site .solution-cta h3 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) and (min-height: 950px) {
+  .company-site #solutions .solution-card {
+    padding: 24px 20px !important;
+  }
+
+  .company-site .product-media {
+    flex-basis: 112px;
+    height: 112px;
+    margin-top: 14px;
+  }
+
+  .company-site #solutions .product-media img,
+  .company-site #solutions .product-media .appfactory-logo {
+    max-height: 108px !important;
+  }
+
+  .company-site .product-symbol {
+    width: 104px;
+    height: 104px;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 700px) and (max-height: 800px) {
+  html.company-site {
+    --section-edge: 20px;
+    --section-gap: 18px;
+  }
+
+  .company-site .section-heading {
+    gap: 30px;
+  }
+
+  .company-site .section-title {
+    font-size: 34px;
+  }
+
+  .company-site .section-eyebrow {
+    margin-bottom: 6px;
+    font-size: 12px;
+  }
+
+  .company-site .section-heading .section-intro h4 {
+    font-size: 17px;
+  }
+
+  .company-site .section-intro p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .company-site .product-suite-lede {
+    font-size: 17px;
+  }
+
+  .company-site .hero-copy h1 {
+    font-size: 68px;
+  }
+
+  .company-site .hero-category {
+    margin-top: 12px;
+    font-size: 38px;
+  }
+
+  .company-site .hero-lede {
+    font-size: 19px;
+  }
+
+  .company-site .hero-description {
+    font-size: 16px;
+  }
+
+  .company-site .hero-actions .btn {
+    padding: 16px 22px !important;
+    font-size: 15px;
+  }
+
+  .company-site .hero-proof-grid {
+    margin-top: 22px;
+  }
+
+  .company-site .hero-proof-grid div {
+    min-height: 82px;
+    padding: 16px;
+  }
+
+  .company-site .hero-proof-grid strong {
+    font-size: 16px;
+  }
+
+  .company-site .hero-signal-panel {
+    width: 78%;
+    padding: 18px 22px;
+  }
+
+  .company-site .hero-signal-panel strong {
+    font-size: 20px;
+  }
+
+  .company-site .hero-signal-panel li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .company-site .service-item {
+    padding: 26px !important;
+  }
+
+  .company-site .service-item h4 {
+    margin-bottom: 18px !important;
+    font-size: 26px;
+  }
+
+  .company-site .service-item p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .company-site .service-item i {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px !important;
+  }
+
+  .company-site .service-item img {
+    max-height: 58px;
+    padding-bottom: 18px !important;
+  }
+
+  .company-site #solutions .solution-card {
+    padding: 18px 16px !important;
+  }
+
+  .company-site #solutions .product-title {
+    font-size: 21px;
+  }
+
+  .company-site #solutions .solution-card strong {
+    min-height: 40px;
+    font-size: 13px;
+  }
+
+  .company-site .product-media {
+    flex-basis: 94px;
+    height: 94px;
+    margin: 10px 0 4px;
+  }
+
+  .company-site #solutions .product-media img,
+  .company-site #solutions .product-media .appfactory-logo {
+    max-height: 94px !important;
+  }
+
+  .company-site .product-symbol {
+    width: 88px;
+    height: 88px;
+    font-size: 42px;
+  }
+
+  .company-site #solutions .solution-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .company-site #solutions .solution-card .btn {
+    padding: 10px 12px !important;
+    font-size: 13px;
+  }
+
+  .company-site .section-proof-row div {
+    min-height: 100px;
+    padding: 14px 0;
+  }
+
+  .company-site .section-proof-row strong {
+    font-size: 18px;
+  }
+
+  .company-site .contact-section .solution-cta {
+    padding: 24px 32px;
+  }
+
+  .company-site .solution-cta h3 {
+    font-size: 32px;
+  }
+
+  .company-site .solution-cta p {
+    margin-bottom: 18px;
+    font-size: 16px;
+  }
+
+  .company-site #contact-details {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+
+  .company-site #contactus iframe {
+    min-height: 220px;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 700px) and (max-height: 730px) {
+  html.company-site {
+    --section-edge: 14px;
+    --section-gap: 14px;
+  }
+
+  .company-site #solutions .section-heading {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .company-site #solutions .section-eyebrow {
+    display: none;
+  }
+
+  .company-site #solutions .section-title {
+    font-size: 30px;
+  }
+
+  .company-site #solutions .product-suite-lede {
+    font-size: 16px;
+  }
+
+  .company-site #solutions .solution-card {
+    padding: 16px 14px !important;
+  }
+
+  .company-site .hero-copy h1 {
+    font-size: 62px;
+  }
+
+  .company-site .hero-lede {
+    font-size: 18px;
+  }
+
+  .company-site .hero-proof-grid div {
+    min-height: 74px;
+    padding: 14px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .company-site .section-heading {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .company-site .section-title {
+    max-width: 860px;
+    font-size: 36px;
+  }
+
+  .company-site .section-heading .section-intro {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .company-site .section-title {
+    font-size: 30px;
+  }
+
+  .company-site .section-heading {
+    gap: 16px;
+  }
+
+  .company-site .section-eyebrow {
+    font-size: 12px;
+  }
+}

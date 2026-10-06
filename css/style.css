@@ -10428,14 +10428,14 @@ body {
 
 /********** Dark Tech Compact Theme ************/
 :root {
-  --ivh-bg: #070a0f;
-  --ivh-panel: #101722;
-  --ivh-panel-2: #151e2b;
-  --ivh-line: rgba(154, 179, 205, 0.18);
-  --ivh-text: #edf3f8;
-  --ivh-muted: #aebccd;
-  --ivh-teal: #2fd4c6;
-  --ivh-gold: #ffaa17;
+  --ivh-bg: #090d0e;
+  --ivh-panel: #111718;
+  --ivh-panel-2: #192022;
+  --ivh-line: rgba(169, 188, 194, 0.18);
+  --ivh-text: #f1f6f5;
+  --ivh-muted: #abb9bd;
+  --ivh-teal: #45e2c3;
+  --ivh-gold: #f5ba5a;
   --ivh-ember: #ff6b4a;
 }
 
@@ -10445,7 +10445,7 @@ body {
 }
 
 .site-nav-wrap {
-  background: rgba(7, 10, 15, 0.92) !important;
+  background: rgba(9, 13, 14, 0.94) !important;
   border-bottom: 1px solid var(--ivh-line);
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.34);
   backdrop-filter: blur(16px);
@@ -10523,10 +10523,10 @@ body {
   margin-bottom: 0;
   padding: 54px 0 48px !important;
   background:
-    linear-gradient(90deg, rgba(7, 10, 15, 0.96), rgba(7, 10, 15, 0.78)),
+    linear-gradient(90deg, rgba(9, 13, 14, 0.96), rgba(9, 13, 14, 0.78)),
     linear-gradient(rgba(47, 212, 198, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(47, 212, 198, 0.08) 1px, transparent 1px),
-    #070a0f !important;
+    #090d0e !important;
   background-size: auto, 44px 44px, 44px 44px, auto;
 }
 
@@ -10651,13 +10651,13 @@ body {
   padding: 32px !important;
   border-color: var(--ivh-line);
   color: var(--ivh-text);
-  background: linear-gradient(180deg, rgba(21, 30, 43, 0.96), rgba(12, 17, 25, 0.96));
+  background: linear-gradient(180deg, rgba(25, 32, 34, 0.96), rgba(14, 19, 20, 0.96));
   box-shadow: 0 18px 48px rgba(0, 0, 0, 0.24);
 }
 
 .service-item:hover {
   border-color: rgba(47, 212, 198, 0.44);
-  background: linear-gradient(180deg, rgba(19, 33, 45, 0.98), rgba(12, 17, 25, 0.98));
+  background: linear-gradient(180deg, rgba(24, 37, 36, 0.98), rgba(14, 19, 20, 0.98));
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
 }
 
@@ -10722,7 +10722,7 @@ body {
   padding: 28px 18px 22px !important;
   border-color: var(--ivh-line);
   color: var(--ivh-text);
-  background: linear-gradient(180deg, rgba(21, 30, 43, 0.98), rgba(10, 15, 22, 0.98)) !important;
+  background: linear-gradient(180deg, rgba(25, 32, 34, 0.98), rgba(12, 17, 18, 0.98)) !important;
   box-shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
 }
 
@@ -10784,7 +10784,7 @@ body {
   margin-top: 0;
   padding: 34px 20px;
   border-top: 1px solid var(--ivh-line);
-  background: #0c1119;
+  background: #111718;
 }
 
 .solution-cta h3 {
@@ -10796,7 +10796,7 @@ body {
 }
 
 #contactus {
-  background: #070a0f !important;
+  background: #090d0e !important;
   border-top: 1px solid var(--ivh-line);
 }
 
@@ -10896,7 +10896,7 @@ body {
   padding: 16px 18px;
   border: 1px solid var(--ivh-line);
   border-radius: 10px;
-  background: linear-gradient(180deg, rgba(21, 30, 43, 0.82), rgba(10, 15, 22, 0.82));
+  background: linear-gradient(180deg, rgba(25, 32, 34, 0.82), rgba(12, 17, 18, 0.82));
 }
 
 .hero-proof-grid span {
@@ -11149,7 +11149,7 @@ body {
   border: 1px solid rgba(47, 212, 198, 0.28);
   border-radius: 12px;
   text-align: left;
-  background: linear-gradient(180deg, rgba(16, 23, 34, 0.92), rgba(7, 10, 15, 0.92));
+  background: linear-gradient(180deg, rgba(20, 27, 28, 0.92), rgba(9, 13, 14, 0.92));
   box-shadow: 0 26px 70px rgba(0, 0, 0, 0.42);
   backdrop-filter: blur(12px);
 }
@@ -11221,7 +11221,7 @@ body {
   padding: 22px;
   border: 1px solid var(--ivh-line);
   border-radius: 10px;
-  background: linear-gradient(180deg, rgba(16, 23, 34, 0.94), rgba(8, 12, 18, 0.94));
+  background: linear-gradient(180deg, rgba(20, 27, 28, 0.94), rgba(10, 15, 16, 0.94));
 }
 
 .section-proof-row span {
@@ -11426,5 +11426,693 @@ body {
   .hero-signal-panel,
   .section-proof-row {
     display: none;
+  }
+}
+
+/********** Business Products and Sales Copy ************/
+body,
+.section-kicker {
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn,
+.navbar-light .navbar-nav .nav-link,
+.hero-proof-grid span,
+.hero-signal-panel span,
+.hero-signal-panel b,
+.section-proof-row span {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  letter-spacing: 0;
+}
+
+.btn,
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 600;
+  text-transform: none !important;
+}
+
+.hero-copy h1 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.16;
+  padding-bottom: 4px;
+  text-transform: none !important;
+}
+
+.hero-actions .btn {
+  min-width: 0;
+  padding: 16px 22px !important;
+  font-size: 15px;
+}
+
+#aboutus h1,
+#services h1,
+#solutions h1,
+.service-item h4 {
+  text-transform: none !important;
+}
+
+#aboutus h1,
+#services h1,
+#solutions h1 {
+  font-size: 40px;
+}
+
+#solutions {
+  padding: 32px 0 !important;
+}
+
+#solutions h1 {
+  margin-bottom: 18px !important;
+}
+
+.hero-category {
+  margin-top: 12px;
+  font-size: 40px;
+  line-height: 1.15;
+}
+
+.hero-description {
+  max-width: 650px;
+  color: var(--ivh-muted);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#solutions .product-suite-kicker {
+  padding-top: 0;
+}
+
+.product-suite-lede {
+  margin: 0 auto 22px;
+  color: var(--ivh-muted);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#solutions .solution-card.complementary-product {
+  border-color: rgba(47, 212, 198, 0.38);
+}
+
+#solutions .product-title {
+  min-height: 36px;
+  margin-bottom: 8px;
+  color: var(--ivh-text);
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.product-label {
+  align-self: center;
+  min-height: 28px;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  color: var(--ivh-muted);
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.product-label.coming-soon {
+  border: 1px solid rgba(255, 170, 23, 0.35);
+  border-radius: 4px;
+  color: var(--ivh-gold);
+  background: rgba(255, 170, 23, 0.08);
+}
+
+#solutions .solution-card strong {
+  min-height: 50px;
+  padding: 0;
+}
+
+.product-media {
+  display: flex;
+  flex: 0 0 108px;
+  align-items: center;
+  justify-content: center;
+  height: 108px;
+  margin: 12px 0 4px;
+}
+
+#solutions .product-media img {
+  width: auto;
+  max-width: 86%;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+#solutions .product-media .appfactory-logo {
+  width: min(100%, 108px) !important;
+  max-height: 108px !important;
+  border-radius: 8px;
+}
+
+.product-symbol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(47, 212, 198, 0.25);
+  border-radius: 8px;
+  color: var(--ivh-teal);
+  background: rgba(47, 212, 198, 0.08);
+  font-size: 46px;
+}
+
+.ocr-symbol {
+  border-color: rgba(255, 170, 23, 0.25);
+  color: var(--ivh-gold);
+  background: rgba(255, 170, 23, 0.08);
+}
+
+#solutions .solution-card p {
+  display: block;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+
+#solutions .solution-card .p-4 {
+  padding: 10px 4px !important;
+}
+
+#solutions .solution-card .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin-top: auto !important;
+  margin-bottom: 0 !important;
+  line-height: 1.35;
+}
+
+#solutions .solution-card .product-pair-note {
+  margin: auto 0 0;
+  padding: 14px 0 0;
+  border-top: 1px solid var(--ivh-line);
+  color: var(--ivh-gold);
+  font-size: 13px;
+  text-align: center;
+}
+
+.product-title-link {
+  color: inherit;
+}
+
+.product-title-link:hover,
+.product-title-link:focus {
+  color: var(--ivh-gold);
+}
+
+@media (min-width: 1600px) {
+  .hero-section {
+    min-height: calc(100vh - 168px);
+    padding: 48px 0 !important;
+  }
+
+  .hero-media {
+    min-height: 640px;
+  }
+
+  .hero-visual {
+    max-height: 640px;
+  }
+
+  .hero-copy h1 {
+    font-size: 76px;
+  }
+
+  .hero-actions .btn {
+    padding: 18px 28px !important;
+    font-size: 17px;
+  }
+
+  .hero-category {
+    font-size: 48px;
+  }
+
+  .hero-description {
+    max-width: 780px;
+    font-size: 20px;
+  }
+
+  .product-suite-lede {
+    font-size: 22px;
+  }
+
+  #aboutus h1,
+  #services h1,
+  #solutions h1 {
+    font-size: 52px;
+  }
+
+  #solutions {
+    padding: 56px 0 !important;
+  }
+
+  #services,
+  #aboutus {
+    padding: 64px 0 !important;
+  }
+
+  #solutions .solution-card {
+    min-height: 580px;
+    padding: 30px 24px 24px !important;
+  }
+
+  #solutions .product-title {
+    min-height: 40px;
+    font-size: 26px;
+  }
+
+  .product-label {
+    min-height: 34px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .product-media {
+    flex-basis: 132px;
+    height: 132px;
+  }
+
+  #solutions .product-media img {
+    max-height: 120px;
+  }
+
+  #solutions .product-media .appfactory-logo {
+    width: min(100%, 132px) !important;
+    max-height: 132px !important;
+  }
+
+  .product-symbol {
+    width: 112px;
+    height: 112px;
+    font-size: 50px;
+  }
+
+  #solutions .solution-card p {
+    font-size: 16px;
+  }
+
+  #services .service-item,
+  #aboutus .service-item {
+    min-height: 420px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+  #solutions .product-title {
+    font-size: 22px;
+  }
+
+  #solutions .solution-card {
+    min-height: 520px;
+  }
+
+  #solutions .solution-card p {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hero-description {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599.98px) and (max-height: 800px) {
+  #solutions {
+    padding: 24px 0 !important;
+  }
+
+  #solutions .product-suite-kicker {
+    margin-bottom: 8px !important;
+  }
+
+  #solutions h1 {
+    margin-bottom: 12px !important;
+    font-size: 32px;
+  }
+
+  .product-suite-lede {
+    margin-bottom: 18px;
+    font-size: 16px;
+  }
+
+  #solutions .solution-card {
+    min-height: 480px;
+    padding: 18px 14px !important;
+  }
+
+  #solutions .product-title {
+    min-height: 28px;
+    font-size: 20px;
+  }
+
+  #solutions .solution-card strong {
+    min-height: 42px;
+  }
+
+  .product-media {
+    flex-basis: 90px;
+    height: 90px;
+    margin-top: 8px;
+  }
+
+  #solutions .product-media img,
+  #solutions .product-media .appfactory-logo {
+    max-height: 90px !important;
+  }
+
+  .product-symbol {
+    width: 84px;
+    height: 84px;
+    font-size: 40px;
+  }
+
+  #solutions .solution-card .p-4 {
+    padding: 8px 4px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-copy h1 {
+    font-size: 40px;
+  }
+
+  .hero-category {
+    font-size: 28px;
+  }
+
+  #aboutus h1,
+  #services h1,
+  #solutions h1 {
+    font-size: 30px;
+  }
+
+  .product-suite-lede {
+    font-size: 16px;
+  }
+
+  #solutions .product-title {
+    min-height: auto;
+  }
+}
+
+/********** Full Page Section Scrolling ************/
+html.company-site {
+  --site-nav-height: 90px;
+  --page-height: calc(100svh - var(--site-nav-height));
+}
+
+.company-site #home,
+.company-site #solutions,
+.company-site #services,
+.company-site #aboutus,
+.company-site #contactus {
+  scroll-margin-top: var(--site-nav-height);
+}
+
+.company-site #contact-details {
+  margin-top: 0 !important;
+  background: var(--ivh-bg) !important;
+}
+
+.contact-section .solution-cta p,
+.contact-section .site-copyright p {
+  color: var(--ivh-muted) !important;
+}
+
+@media (min-width: 1200px) and (min-height: 700px) {
+  html.company-site {
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: var(--site-nav-height);
+    scroll-behavior: smooth;
+  }
+
+  .company-site #home,
+  .company-site #solutions,
+  .company-site #services,
+  .company-site #aboutus,
+  .company-site #contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: var(--page-height);
+    margin: 0;
+    padding: 24px 0 !important;
+    scroll-margin-top: 0;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  .company-site .hero-row,
+  .company-site .hero-media {
+    min-height: 0;
+  }
+
+  .company-site .hero-visual {
+    max-height: min(560px, calc(var(--page-height) - 100px));
+  }
+
+  .company-site .hero-signal-panel {
+    bottom: 0;
+  }
+
+  .company-site #contactus {
+    padding: 0 !important;
+  }
+
+  .company-site .contact-section .solution-cta {
+    border-top: 0;
+    padding: 28px 24px;
+    background: transparent;
+  }
+
+  .company-site #contact-details {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+    border-top: 1px solid var(--ivh-line);
+  }
+
+  .company-site #contact-details > .row {
+    max-width: 1760px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0 !important;
+  }
+
+  .company-site #contact-details .mb-5 {
+    margin-bottom: 0 !important;
+  }
+
+  .company-site #contactus iframe {
+    min-height: 220px;
+  }
+
+  .company-site .site-copyright {
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+    background: transparent !important;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 700px) and (max-height: 900px) {
+  .company-site #home,
+  .company-site #solutions,
+  .company-site #services,
+  .company-site #aboutus {
+    padding: 18px 0 !important;
+  }
+
+  .company-site .hero-copy h1 {
+    font-size: 58px;
+  }
+
+  .company-site .hero-category {
+    font-size: 38px;
+  }
+
+  .company-site .hero-lede {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .company-site .hero-description {
+    font-size: 16px;
+  }
+
+  .company-site .hero-proof-grid {
+    margin-top: 24px;
+  }
+
+  .company-site .hero-proof-grid div {
+    min-height: 78px;
+    padding: 16px 18px;
+  }
+
+  .company-site .hero-proof-grid span,
+  .company-site .hero-proof-grid strong {
+    font-size: 15px;
+  }
+
+  .company-site #solutions h1,
+  .company-site #services h1,
+  .company-site #aboutus h1 {
+    margin-bottom: 20px !important;
+    font-size: 34px;
+  }
+
+  .company-site .section-intro {
+    margin-bottom: 18px;
+  }
+
+  .company-site .section-intro h4 {
+    margin-bottom: 12px !important;
+    font-size: 22px;
+  }
+
+  .company-site .section-intro p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .company-site .service-item {
+    min-height: 0 !important;
+    padding: 28px !important;
+  }
+
+  .company-site .service-item h4 {
+    font-size: 23px;
+  }
+
+  .company-site .service-item p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .company-site .service-item i {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 18px !important;
+  }
+
+  .company-site .service-item img {
+    max-height: 48px;
+    padding-bottom: 16px !important;
+  }
+
+  .company-site .section-proof-row {
+    gap: 12px;
+    margin-top: 8px;
+  }
+
+  .company-site .section-proof-row div {
+    min-height: 100px;
+    padding: 18px;
+  }
+
+  .company-site .section-proof-row span {
+    font-size: 13px;
+  }
+
+  .company-site .section-proof-row strong {
+    font-size: 17px;
+  }
+
+  .company-site #solutions .solution-col {
+    margin-bottom: 0 !important;
+  }
+
+  .company-site #solutions .solution-card {
+    min-height: 0;
+    padding: 18px 14px !important;
+  }
+
+  .company-site #solutions .product-title {
+    min-height: 28px;
+    font-size: 20px;
+  }
+
+  .company-site .product-label {
+    min-height: 28px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .company-site #solutions .solution-card strong {
+    min-height: 42px;
+    font-size: 13px;
+  }
+
+  .company-site .product-media {
+    flex-basis: 90px;
+    height: 90px;
+    margin-top: 8px;
+  }
+
+  .company-site #solutions .product-media img,
+  .company-site #solutions .product-media .appfactory-logo {
+    width: auto !important;
+    max-height: 90px !important;
+  }
+
+  .company-site .product-symbol {
+    width: 84px;
+    height: 84px;
+    font-size: 40px;
+  }
+
+  .company-site #solutions .solution-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .company-site #solutions .solution-card .p-4 {
+    padding: 8px 4px !important;
+  }
+
+  .company-site #solutions .solution-card .btn {
+    padding: 8px 12px !important;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 700px) and (max-height: 800px) {
+  .company-site #solutions .product-suite-kicker {
+    display: none;
+  }
+
+  .company-site #solutions h1 {
+    margin-bottom: 12px !important;
+    font-size: 32px;
+  }
+
+  .company-site .product-suite-lede {
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.company-site {
+    scroll-behavior: auto;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 700px) and (max-height: 750px) {
+  .company-site #home,
+  .company-site #solutions,
+  .company-site #services,
+  .company-site #aboutus {
+    padding: 8px 0 !important;
   }
 }
