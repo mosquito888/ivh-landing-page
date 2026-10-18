@@ -30,15 +30,39 @@
     <link href="https://www.inveshub.co/ifx/main_page/ivh/css/style.css" rel="stylesheet">
     <link href="https://www.inveshub.co/ifx/main_page/ivh/css/page-layout.css" rel="stylesheet">
 
+    <!-- Keep headings readable when production stylesheets are stale or unavailable. -->
+    <style id="landing-critical-colors">
+        .company-site .section-title,
+        .company-site #solutions .product-title {
+            color: var(--ivh-text, #f1f6f5);
+        }
+
+        .company-site #solutions .product-title-link {
+            color: inherit;
+        }
+
+        .company-site #solutions .product-title-link:hover,
+        .company-site #solutions .product-title-link:focus-visible {
+            color: var(--ivh-gold, #f5ba5a);
+        }
+
+        .company-site [data-aos]:not(.aos-init) {
+            opacity: 1 !important;
+            transform: none !important;
+        }
+    </style>
+
     <!-- Aos Animation -->
     <link href="https://www.inveshub.co/ifx/main_page/ivh/aos/aos.css" rel="stylesheet">
     <script src="https://www.inveshub.co/ifx/main_page/ivh/aos/aos.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            AOS.init({
-                duration: 650,
-                once: false
-            });
+            if (window.AOS) {
+                AOS.init({
+                    duration: 650,
+                    once: false
+                });
+            }
         });
     </script>
 </head>
@@ -119,7 +143,6 @@
         <div class="container pt-5 pb-3">
             <div class="section-heading">
                 <div>
-                    <p class="section-eyebrow">01 / Inveshub Product Suite</p>
                     <h2 class="section-title" data-aos="fade-up" data-aos-duration="500">Products That Move Your Business Forward</h2>
                 </div>
                 <p class="product-suite-lede">Turn documents into data. Build applications that put it to work.</p>
@@ -216,7 +239,6 @@
         <div class="container pt-5 pb-3">
             <div class="section-heading">
                 <div>
-                    <p class="section-eyebrow">02 / Tailored to Your Business</p>
                     <h2 class="section-title" data-aos="fade-up" data-aos-duration="500">Custom Software &amp; IT Consulting</h2>
                 </div>
                 <div class="section-intro" data-aos="fade-up" data-aos-duration="1000">
@@ -260,7 +282,6 @@
         <div class="container pt-5 pb-3">
             <div class="section-heading">
                 <div>
-                    <p class="section-eyebrow">03 / Your Technology Partner</p>
                     <h2 class="section-title" data-aos="fade-up" data-aos-duration="500">Why Work with Inveshub</h2>
                 </div>
             </div>
@@ -426,7 +447,7 @@
 
 
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://www.inveshub.co/ifx/main_page/ivh/lib/easing/easing.min.js"></script>
     <script src="https://www.inveshub.co/ifx/main_page/ivh/lib/waypoints/waypoints.min.js"></script>
